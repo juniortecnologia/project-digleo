@@ -57,6 +57,6 @@ app.delete("/clients/:id", function(req, res){
     res.json(clientsFiltered);
 });  
 
-app.listen(3000, function() {
+app.listen(3001, function() {
   console.log('Server is running on port 3000');
 });
